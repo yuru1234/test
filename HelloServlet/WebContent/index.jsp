@@ -9,5 +9,7 @@
 <body>
 <input type="button" value="HelloServlet" onClick="location.href='HelloServlet'">
 
+<input type="button" value="WelcomeServlet" onClick="location.href='welcome.jsp'">
+
 </body>
 </html>
