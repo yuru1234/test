@@ -13,7 +13,7 @@ public class LoginAction extends ActionSupport {
 	public String execute() throws SQLException {
 		String ret = ERROR;
 		LoginDAO dao = new LoginDAO();
-		LoginDTO dto = new LogninDTO();
+		LoginDTO dto = new LoginDTO();
 
 		dto = dao.select(name, password);
 		if(name.equals(dto.getName())) {
