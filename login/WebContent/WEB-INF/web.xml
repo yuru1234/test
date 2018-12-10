@@ -4,11 +4,15 @@ xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
 
+<!-- プロジェクト名の設定 -->
   <display-name>login</display-name>
   <welcome-file-list>
+
+<!-- 初期画面にしたいJSPファイル名 -->
     <welcome-file>login.jsp</welcome-file>
   </welcome-file-list>
 
+<!-- Struts2を有効にする設定 -->
   <filter>
 	<filter-name>struts2</filter-name>
 	<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>

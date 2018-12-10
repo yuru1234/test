@@ -16,10 +16,14 @@ public class LoginDAO {
 
 	try {
 		PreparedStatement ps = con.prepareStatement(sql);
+
+//	SQL分の「？」パラメータに指定した値を挿入する
 		ps.setString(1, name);
 		ps.setString(2, password);
+//	SQL文実行
 		ResultSet rs = ps.executeQuery();
 
+//	select文でDBから取得した情報をDTOクラスに格納する
 		if(rs.next()) {
 			dto.setName(rs.getString("user_name"));
 			dto.setPassword(rs.getString("password"));
@@ -27,6 +31,8 @@ public class LoginDAO {
 	} catch(SQLException e){
 		e.printStackTrace();
 
+//　必ず実行する処理
+//　DB接続を切断する
 	} finally{
 		con.close();
 	}
