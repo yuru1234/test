@@ -10,8 +10,6 @@ import com.opensymphony.xwork2.ActionSupport;
 public class TestAction extends ActionSupport{
 	private String username;
 	private String password;
-
-//Listはインターフェース、ArrayListはそのインターフェースの実装クラス
 	private List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
 
 	public String execute() {
