@@ -21,6 +21,7 @@
 	</tr>
 
 	<tr>
+<!-- iteratorタグでリスト要素に対して処理を行える -->
 	<s:iterator value="loginDTOList">
 		<td><s:property value="username"/></td>
 		<td><s:property value="password"/></td>
