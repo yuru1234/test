@@ -8,7 +8,7 @@
 
 
 	<constant name="struts.devMode" value="true"/>
-	<package name="com.internousdev.webproj3.action" extends="struts-default">
+	<package name="com.internousdev.webproj4.action" extends="struts-default">
 
 
 	<action name="HelloStrutsAction" class="com.internousdev.webproj4.action.HelloStrutsAction" method="execute">
