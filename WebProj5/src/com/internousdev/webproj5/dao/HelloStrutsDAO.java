@@ -25,6 +25,7 @@ public class HelloStrutsDAO {
 
 			while(rs.next()) {
 				HelloStrutsDTO dto = new HelloStrutsDTO();
+//getIntメソッド＝ResultSetオブジェクトの現在行の列の値を，Javaプログラミング言語のintで取得します。値を取得する列は，引数で指定します。
 				dto.setUserId(rs.getInt("user_id"));
 				dto.setUserName(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));

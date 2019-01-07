@@ -21,6 +21,10 @@
 		<th>RESULT</th>
 	</tr>
 
+<!-- iteratorは繰り返し処理をするタグ -->
+<!-- 「#」は特定のクラスの非staticなフィールドやメソッドを示す -->
+<!-- helloStrutsDTOListはsession（Map型）のキー -->
+<!-- propertyでアクセサ（dtoの？getter）を呼び出して、オブジェクトのプロパティを取り出す -->
 	<s:iterator value="#session.helloStrutsDTOList">
 	<tr>
 		<td><s:property value="userId"/></td>
