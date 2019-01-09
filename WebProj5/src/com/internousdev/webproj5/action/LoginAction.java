@@ -10,6 +10,10 @@ import com.internousdev.webproj5.dao.LoginDAO;
 import com.internousdev.webproj5.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
+//ActionSupportとgetter,setterでValueStackが使えるようになる。（値を持ち運ぶ箱、struts2のみで使える）
+//SessionAwareでValueStackの中にsessionという箱を作ってる。
+//sessionは半永久的に使える。全ての通信で使える。使うときは＃をつける。
+
 public class LoginAction extends ActionSupport implements SessionAware{
 	private String username;
 	private String password;

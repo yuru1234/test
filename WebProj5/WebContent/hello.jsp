@@ -22,9 +22,10 @@
 	</tr>
 
 <!-- iteratorは繰り返し処理をするタグ -->
-<!-- 「#」は特定のクラスの非staticなフィールドやメソッドを示す -->
+<!-- 「#」は通信のsessionを使うという意味 -->
+<!-- ValueStackの中のsessionの値を、通信のsessionに送っている -->
 <!-- helloStrutsDTOListはsession（Map型）のキー -->
-<!-- propertyでアクセサ（dtoの？getter）を呼び出して、オブジェクトのプロパティを取り出す -->
+<!-- propertyでアクセサ（dtoのgetter）を呼び出して、オブジェクトのプロパティを取り出す -->
 	<s:iterator value="#session.helloStrutsDTOList">
 	<tr>
 		<td><s:property value="userId"/></td>
