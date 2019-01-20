@@ -107,8 +107,8 @@
 						<span>支払い方法</span>
 					</td>
 					<td>
-						<input type="radio name="pay" value="1" checked="checked">現金払い
-						<input type="radio name="pay" value="2" checked="checked">クレジットカード
+						<input type="radio" name="pay" value="1" checked="checked">現金払い
+						<input type="radio" name="pay" value="2" checked="checked">クレジットカード
 					</td>
 				</tr>
 				<tr>
