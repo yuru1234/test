@@ -10,7 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="descreption" content=""/>
 	<meta name="keywords" content=""/>
-	<title>buyITem画面</title>
+	<title>buyItem画面</title>
 
 	<style type="text/css">
 	/* TAG LAYOUT */
@@ -76,7 +76,7 @@
 						<span>商品名</span>
 					</td>
 					<td>
-						<s:property value="session.buyITem_name"/>
+						<s:property value="session.buyItem_name"/>
 					</td>
 				</tr>
 				<tr>
@@ -84,7 +84,7 @@
 						<span>値段</span>
 					</td>
 					<td>
-						<s:property value="session.buyITem_price"/>
+						<s:property value="session.buyItem_price"/>
 							<span>円</span>
 					</td>
 				</tr>
@@ -108,7 +108,7 @@
 					</td>
 					<td>
 						<input type="radio" name="pay" value="1" checked="checked">現金払い
-						<input type="radio" name="pay" value="2" checked="checked">クレジットカード
+						<input type="radio" name="pay" value="2" >クレジットカード
 					</td>
 				</tr>
 				<tr>
