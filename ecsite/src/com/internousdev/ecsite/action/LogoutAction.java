@@ -10,7 +10,7 @@ public class LogoutAction extends ActionSupport implements SessionAware{
 	public Map<String, Object> session;
 
 	public String execute() {
-		session.invalidate();
+		session.clear();
 		return SUCCESS;
 	}
 
