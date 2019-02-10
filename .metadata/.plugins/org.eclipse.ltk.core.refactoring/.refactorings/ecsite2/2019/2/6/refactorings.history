@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="パッケージ名 &apos;com.internousdev.ecsite&apos; を &apos;com.internousdev.ecsite2&apos; に変更します&#x0D;&#x0A;- 元のプロジェクト: &apos;ecsite2&apos;&#x0D;&#x0A;- オリジナル要素: &apos;ecsite2/src/com.internousdev.ecsite&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;ecsite2/src/com.internousdev.ecsite2&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新&#x0D;&#x0A;- コメントおよびストリング内のテキスト出現箇所の更新" description="パッケージ名 &apos;com.internousdev.ecsite&apos; を変更します" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.internousdev.ecsite" name="com.internousdev.ecsite2" qualified="false" references="true" stamp="1549712252464" textual="true" version="1.0"/>
+</session>
